@@ -1,18 +1,18 @@
 import java.util.Scanner;
 
 
-public class ArrQueueTest 
+public class QueueTester 
 {
 	public static void main(String[] args)
 	{
-		ArrQueue queue;
+		Queue queue;
 		
 		boolean done = false;
 		
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Queue Size?");
-		queue = new ArrQueue(sc.nextInt());
+		queue = new Queue(sc.nextInt());
 		while(!done)
 		{
 			System.out.println("[E]nqueue, [D]equeue, [P]rint or [Q]uit");
@@ -30,7 +30,6 @@ public class ArrQueueTest
 			else if(response.equalsIgnoreCase("P"))
 			{
 				System.out.println( queue );
-				System.out.println( queue.toStringFormatted() );
 			}
 			else if(response.equalsIgnoreCase("Q"))
 				done = true;

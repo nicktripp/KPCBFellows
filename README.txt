@@ -34,7 +34,7 @@
 	 
 			****IMPLEMENTATION****
 	 
-	 Queue is a public class that can be implemented into any Java program.  To use the Queue class, first import or copy the Queue.java file into the current package.
+	 Queue is a public class that can be used in any Java program.  To use the Queue class, first import or copy the Queue.java file into the current package.
 	 The public constructors and methods of Queue will then be available for use. Consult the javadoc comments when implementing Queue.
 	 
 			****HOW TO RUN****
@@ -42,13 +42,13 @@
 	 Since Queue does not have a main() method, it can not be executed directly from the command line.
 	 
 	 To run an example of Queue, you can do any of the following:
-	   - implement Queue into another program, and run that program.
+	   - import Queue into another program, and run that program.
 	   - run the ExampleQueueApp. To do this, do the following:
 	       * Open up the terminal or command prompt (in Linux or Mac/Windows). Navigate to the directory that ExampleQueueApp.java is in.
 	       * Type "javac ExampleQueueApp.java" and hit enter to compile the program.
 	       * Type "java ExampleQueueApp" and hit enter to run the program. Respond to the prompts in the terminal/command prompt.
-	   - run the jUnit tests. 
-	 
+	   - run the JUnit tests. Make sure you have JUnit on your classpath and run "java org.junit.runner.JUnitCore TestQueue"
+
 			****THANKS****
 									
 	 Thanks for reviewing my application and checking out this queue implementation!

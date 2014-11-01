@@ -4,6 +4,11 @@ import junit.framework.TestCase;
 
 import org.junit.Test;
 
+/**
+ * A set of test cases for the Queue class.
+ * @author nicktripp
+ *
+ */
 public class QueueTest extends TestCase
 {	
 	@Test

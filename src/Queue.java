@@ -6,7 +6,7 @@ import java.util.NoSuchElementException;
  * Each Queue stores pointers to the ListItem elements at the 'front' and 'back' of the queue.
  * This is a 'bounded' queue, with a max item count, represented by the 'bound' int instance variable.
  * Has enqueue and dequeue functionality.
- * @author nick.e.tripp
+ * @author nicktripp
  *
  */
 public class Queue 
@@ -114,17 +114,24 @@ public class Queue
 	}
 	
 	
+	
 	/**
-	 * TODO: Remove this method before finishing application process
+	 * A method returning a text representation of queue, a list in square brackets, with the oldest member on the left.
+	 * Uses the following recursive method to iterate through the ListItems of the queue.
+	 * @return - a text representation of the queue
 	 */
 	public String toString()
 	{
 		return "[" + Queue.toString(front) + "]";
 	}
+	
 	/**
-	 * TODO: Remove this method before finishing application process
+	 * A recursive method to convert a section of the queue to a string. 
+	 * This method converts the current list item and everything behind it to a list in a String separated by commas.
+	 * @param - the ListItem holding the earliest value to be printed.
+	 * @return - a text representation of the values of the given ListItem, and every ListItem behind it.
 	 */
-	public static String toString(ListItem item)
+	private static String toString(ListItem item)
 	{
 		String str = "";
 	    if (item == null)

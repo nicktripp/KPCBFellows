@@ -1,13 +1,13 @@
-					=======================================================
-						KPCB ENGINEERING FELLOWSHIP	APPLICATION
-					=======================================================
+		=======================================================
+			KPCB ENGINEERING FELLOWSHIP	APPLICATION
+		=======================================================
 
-								****INTRODUCTION****
+			****INTRODUCTION****
 		
 	 This bounded queue implementation is for my 2015 Kleiner Perkins Caufield & Byers Engineering Fellowship application.  
 	 The implementation is written with Java.
 
-								****TECHNICAL INFORMATION****
+			****TECHNICAL INFORMATION****
 
 	 This implementation uses a linked list to store values. The linked list itself is made of ListItem elements, which are defined within the inner class ListItem.
 	 Each ListItem is a member of the linked list, (and thus the queue) and stores an integer value, as well as 
@@ -32,12 +32,12 @@
 	 
 	 jUnit tests have also been provided in QueueTest.java.
 	 
-									****IMPLEMENTATION****
+			****IMPLEMENTATION****
 	 
 	 Queue is a public class that can be implemented into any Java program.  To use the Queue class, first import or copy the Queue.java file into the current package.
 	 The public constructors and methods of Queue will then be available for use. Consult the javadoc comments when implementing Queue.
 	 
-									****HOW TO RUN****
+			****HOW TO RUN****
 	 
 	 Since Queue does not have a main() method, it can not be executed directly from the command line.
 	 
@@ -49,7 +49,7 @@
 	       * Type "java ExampleQueueApp" and hit enter to run the program. Respond to the prompts in the terminal/command prompt.
 	   - run the jUnit tests. 
 	 
-									****THANKS****
+			****THANKS****
 									
 	 Thanks for reviewing my application and checking out this queue implementation!
 	 

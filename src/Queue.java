@@ -87,7 +87,7 @@ public class Queue
 			size++;
 		}
 		else if (size >= bound)
-			throw new IllegalStateException();//throw an exception if trying to add beyond max capacity
+			throw new IllegalStateException("The queue must not be full before enqueuing a new value.");//throw an exception if trying to add beyond max capacity
 		else
 		{
 			back.setNextItem(new ListItem(value, null)); //set back to point to newest item
@@ -103,7 +103,7 @@ public class Queue
 	public int dequeue() throws NoSuchElementException
 	{
 		if (front == null)
-			throw new NoSuchElementException();
+			throw new NoSuchElementException("The queue must not be empty before dequeuing a new value."); //Throw an exception if trying to remove from an empty queue		
 		
 		size--;
 		
